@@ -197,4 +197,4 @@ console.log(joe.scopeArrow());
 // 2. What is "this" when joe.scopeArrow() is invoked?
 // the window
 // 3. Explain why "this" is different when an arrow function is used.
-// arrow functions in javascript don't have their own "this", so the "this" just refers all the way back up to the window where the script is running
+// arrow functions in javascript don't have their own scope, so the "this" just refers back up to the next scope, in this case the window where the script is running
