@@ -1,15 +1,12 @@
-const divIds = ['a', 'b', 'c', 'd','e', 'f', 'g', 'h', 'i']
+const divIds = ['#a', '#b', '#c', '#d', '#e', '#f', '#g', '#h', '#i']
 
-var colorparty = function(event){
+$(window).on('resize', function(){
     colorGrad();
-}
+})
 
 var pickColor = function(){
     for(let i = 0; i < divIds.length; i++){
-        let colorDiv = document.getElementById(divIds[i]);
-        let ranColor = Math.round(Math.random()*16777215);
-        let hexColor = 'background-color:#' + ranColor.toString(16);
-        colorDiv.setAttribute('style', hexColor);
+        $(divIds[i]).css('background-color', '#' + Math.round(Math.random()*16777215).toString(16));
     }
 }
 
@@ -33,8 +30,7 @@ var colorGrad = function(){
     }
 
     for(let i = 0; i < divIds.length; i++){
-        let colorDiv = document.getElementById(divIds[i]);
-        let hexColor = 'background-color:#' + rGrad[i].toString(16) + gGrad[i].toString(16) + bGrad[i].toString(16);
-        colorDiv.setAttribute('style', hexColor);
+        let hexColor = '#' + rGrad[i].toString(16) + gGrad[i].toString(16) + bGrad[i].toString(16);
+        $(divIds[i]).css('background-color', hexColor);
     }
 }
