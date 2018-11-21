@@ -1,4 +1,4 @@
-const divIds = ['#a', '#b', '#c', '#d', '#e', '#f', '#g', '#h', '#i']
+const divIds = ['#a', '#b', '#c', '#d', '#e', '#f', '#g', '#h', '#i'];
 
 $(window).on('resize', function(){
     colorGrad();
@@ -45,10 +45,11 @@ var colorGrad = function(){
 }
 
 var genHex = function(num){
-    if(num < 16){
-        return '0' + Math.round(num).toString(16);
+    let wholeNum = Math.floor(num);
+    if(wholeNum < 16){
+        return '0' + wholeNum.toString(16);
     }
     else{
-        return Math.round(num).toString(16);
+        return wholeNum.toString(16);
     }
 }
