@@ -10,7 +10,7 @@ div{
 }
 
 #a{
-    background-color: #ff0000;
+    background-color: #806000;
     width: 480px;
     height: 75px;
     position: relative;
@@ -23,7 +23,7 @@ div{
 }
 
 #b{
-    background-color: #ff8800;
+    background-color: #706515;
     width: 480px;
     height: 150px;
     position: relative;
@@ -36,7 +36,7 @@ div{
 }
 
 #c{
-    background-color: #ffff00;
+    background-color: #607030;
     width: 480px;
     height: 125px;
     position: relative;
@@ -49,7 +49,7 @@ div{
 }
 
 #d{
-    background-color: #00ff00;
+    background-color: #508545;
     width: 480px;
     height: 125px;
     position: relative;
@@ -62,7 +62,7 @@ div{
 }
 
 #e{
-    background-color: #00aaaa;
+    background-color: #409060;
     width: 240px;
     height: 250px;
     position: relative;
@@ -75,7 +75,7 @@ div{
 }
 
 #f{
-    background-color: #0000ff;
+    background-color: #309575;
     width: 240px;
     height: 250px;
     position: relative;
@@ -88,7 +88,7 @@ div{
 }
 
 #g{
-    background-color: #6600cc;
+    background-color: #20a090;
     width: 240px;
     height: 250px;
     position: relative;
@@ -97,11 +97,11 @@ div{
 #g p{
     position: absolute;
     right: 120px;
-    top: 125px;
+    top: 125px;#607030
 }
 
 #h{
-    background-color: #880088;
+    background-color: #10a5a5;
     width: 240px;
     height: 250px;
     position: relative;
@@ -114,7 +114,7 @@ div{
 }
 
 #i{
-    background-color: #cc0066;
+    background-color: #00b0c0;
     width: 480px;
     height: 80px;
     position: relative;
@@ -137,7 +137,7 @@ div{
     }
     
     #a{
-        background-color: #880000;
+        background-color: #c00040;
         width: 960px;
         height: 100px;
     }
@@ -148,7 +148,7 @@ div{
     }
 
     #b{
-        background-color: #884400;
+        background-color: #a50540;
         width: 200px;
         height: 600px;
     }
@@ -160,7 +160,7 @@ div{
 
     
     #c{
-        background-color: #888800;
+        background-color: #901040;
         width: 380px;
         height: 200px;
     }
@@ -171,7 +171,7 @@ div{
     }
 
     #d{
-        background-color: #008800;
+        background-color: #751540;
         width: 380px;
         height: 200px;
     }
@@ -182,7 +182,7 @@ div{
     }
 
     #e{
-        background-color: #005555;
+        background-color: #602040;
         width: 190px;
         height: 250px;
     }
@@ -193,7 +193,7 @@ div{
     }
 
     #f{
-        background-color: #000088;
+        background-color: #452540;
         width: 190px;
         height: 250px;
     }
@@ -204,7 +204,7 @@ div{
     }
 
     #g{
-        background-color: #330066;
+        background-color: #303040;
         width: 190px;
         height: 250px;
     }
@@ -215,7 +215,7 @@ div{
     }
 
     #h{
-        background-color: #440044;
+        background-color: #153540;
         width: 190px;
         height: 250px;
     }
@@ -226,7 +226,7 @@ div{
     }
 
     #i{
-        background-color: #660033;
+        background-color: #004040;
         width: 760px;
         height: 150px;
     }
