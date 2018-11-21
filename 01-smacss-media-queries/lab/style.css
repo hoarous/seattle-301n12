@@ -2,6 +2,7 @@ body{
     max-width: 480px;
     margin: 0 auto;
     font-family: sans-serif;
+    color: white;
 }
 
 div{
@@ -23,7 +24,7 @@ div{
 }
 
 #b{
-    background-color: #706515;
+    background-color: #706005;
     width: 480px;
     height: 150px;
     position: relative;
@@ -36,7 +37,7 @@ div{
 }
 
 #c{
-    background-color: #607030;
+    background-color: #606010;
     width: 480px;
     height: 125px;
     position: relative;
@@ -49,7 +50,7 @@ div{
 }
 
 #d{
-    background-color: #508545;
+    background-color: #506015;
     width: 480px;
     height: 125px;
     position: relative;
@@ -62,7 +63,7 @@ div{
 }
 
 #e{
-    background-color: #409060;
+    background-color: #406020;
     width: 240px;
     height: 250px;
     position: relative;
@@ -75,7 +76,7 @@ div{
 }
 
 #f{
-    background-color: #309575;
+    background-color: #306025;
     width: 240px;
     height: 250px;
     position: relative;
@@ -88,7 +89,7 @@ div{
 }
 
 #g{
-    background-color: #20a090;
+    background-color: #206030;
     width: 240px;
     height: 250px;
     position: relative;
@@ -101,7 +102,7 @@ div{
 }
 
 #h{
-    background-color: #10a5a5;
+    background-color: #106035;
     width: 240px;
     height: 250px;
     position: relative;
@@ -114,7 +115,7 @@ div{
 }
 
 #i{
-    background-color: #00b0c0;
+    background-color: #006040;
     width: 480px;
     height: 80px;
     position: relative;
