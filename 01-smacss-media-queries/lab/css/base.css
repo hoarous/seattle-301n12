@@ -1,0 +1,22 @@
+body{
+    max-width: 480px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: white;
+}
+
+div{
+    float: left;
+    text-align: auto;
+}
+
+@media(min-width:768px){
+    body{
+        max-width: 960px;
+        margin: 0 auto;
+    }
+    
+    div{
+        float: left;
+    }
+}

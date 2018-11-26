@@ -1,0 +1,100 @@
+#a p{
+    position: absolute;
+    right: 240px;
+    top: 30px;
+}
+
+#b p{
+    position: absolute;
+    right: 240px;
+    top: 70px;
+}
+
+#c p{
+    position: absolute;
+    right: 240px;
+    top: 55px;
+}
+
+#d p{
+    position: absolute;
+    right: 240px;
+    top: 55px;
+}
+
+#e p{
+    position: absolute;
+    right: 120px;
+    top: 125px;
+}
+
+#f p{
+    position: absolute;
+    right: 120px;
+    top: 125px;
+}
+
+#g p{
+    position: absolute;
+    right: 120px;
+    top: 125px;
+}
+
+#h p{
+    position: absolute;
+    right: 120px;
+    top: 125px;
+}
+
+#i p{
+    position: absolute;
+    right: 240px;
+    top: 35px;
+}
+
+@media(min-width:768px){
+    #a p{
+        right: 480px;
+        top: 45px;
+    }
+
+    #b p{
+        right: 100px;
+        top: 300px;
+    }
+
+    #c p{
+        right: 190px;
+        top: 100px;
+    }
+
+    #d p{
+        right: 190px;
+        top: 100px;
+    }
+
+    #e p{
+        right: 90px;
+        top: 125px;
+    }
+
+    #f p{
+        right: 90px;
+        top: 125px;
+    }
+
+    #g p{
+        right: 90px;
+        top: 125px;
+    }
+
+    #h p{
+        right: 90px;
+        top: 125px;
+    }
+
+    #i p{
+        right: 380px;
+        top: 75px;
+    }
+}
